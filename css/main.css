@@ -1,0 +1,182 @@
+
+/**
+* {
+    border: .5px solid red !important;
+}
+**/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #048070;
+}
+
+
+h1 {
+    font-family: 'Arvo', serif;
+    text-align:right;
+    font-size:3em;
+    padding-right:1%;
+}
+
+img {
+    padding:2%;
+}
+
+img.portfolio-pics {
+    padding:2%;
+    max-height:250px;
+}
+
+img.portfolio-pics.hover-zoom {
+    width: 300px;
+    height: auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+    margin: auto;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    cursor: pointer; 
+    cursor: hand;
+
+}
+img.portfolio-pics.hover-zoom:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    width:300px;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    cursor: pointer; 
+    cursor: hand;
+}
+
+
+.subheading {
+    text-align:right;
+    font-family: 'Arvo', serif;
+    font-size:1em;
+    padding-right:1%;
+    margin-top:-1%;
+}
+
+.subheading.portfolio {
+    text-align:center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size:1.75em;
+
+}
+
+.caption {
+    text-align: center;
+    font-size:.9em;
+    font-family: 'Arvo', serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+h2 {
+    font-family: 'Arvo', serif;
+    text-align:left;
+    font-size:2em;
+}
+
+hr {
+    background: #12B6C0;
+    height: 2px;
+
+}
+
+.quote {
+    margin-top:5%;
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+    font-size:2em;
+}
+
+/***********************CSS FRAMEWORK *************************/
+
+.grid {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top:1%;
+    padding-bottom:5%;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.offset-2 {
+  margin-left: 16.66%;
+}
+
+.offset-1 {
+  margin-left: 8.33%;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sonya Hua's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Covered+By+Your+Grace|Fredericka+the+Great|Pacifico|Reenie+Beanie|Roboto|Shadows+Into+Light" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="grid">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/profile-pic.png" alt="profile pic" width="100%">
+        </div>
+        <div class="col-10"><h1>Sonya Hua</h1>
+        <h3 class="subheading">Data Analyst / Front-End Developer</h3>
+        <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12"><img src="images/design.jpg" alt="Web design" width="100%"></div>
+    </div>
+    <div class="row">
+        <div class="col-12"><h2>My Portfolio</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-4"><img src="images/blog.jpg" alt="The S Blog"  class="portfolio-pics hover-zoom" data-toggle="modal" data-target="#blogModal"></div>
+
+        <div class="col-4"><img src="images/movies.jpg" alt="movie-trailers"  class="portfolio-pics hover-zoom" data-toggle="modal" data-target="#movieModal"></div>
+        
+        <div class="col-4"><img src="images/instagram.jpg" alt="instagram" class="portfolio-pics hover-zoom" data-toggle="modal" data-target="#instagramModal"></div>
+    </div>
+    <div class="row">
+        <div class="col-4"><a href="https://www.sonyahua.com"><div class="subheading portfolio">The S: Personal Blog</div></a></div>
+        
+        <div class="col-4"><a href="https://github.com/sonyahua/movies"><div class="subheading portfolio">Movie Trailers</div></a></div>
+        
+        <div class="col-4"><a href="https://www.instagram.com/dallying402/"><div class="subheading portfolio">Instagram Photography</div></a></div>
+    </div>
+    <div class="row">
+        <div class="col-4"><div class="caption">A personal blog on my projects, statistics, data-viz, 
+        and other journeys</div></div>
+        <div class="col-4"><div class="caption">Part of Udacity Program, create a website filled 
+        with my favorite movie trailers</div></div>
+        <div class="col-4"><div class="caption">My Instagram photography</div></div>
+    </div>
+    <div class="row">
+
+        <div class="col-10 quote offset-1" align="center">
+        <hr>
+        "In the realm of ideas everything depends on <u>enthusiasm</u>... in the real world all rests on <u>perseverance</u>."
+        - Johann Wolfgang von Goethe
+        </div>
+    </div>
+</div>
+
+<!-- Start of Modals -->
+
+<div class="modal fade" id="blogModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="float:right"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">The S: Personal Blog</h4>
+      </div>
+
+      <div class="modal-body">
+            <img class="row" src="images/blog.jpg" alt="The S: Blog">
+            A blog I started March 2016 on my developing projects, data visualizations, interests, and travels. It catalogs projects  I'm working on, as well as some how-to tutorials within my interests.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">
+        <a href="http://www.sonyahua.com">Launch</a>
+        </button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="movieModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="float:right"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Movie Trailers Page</h4>
+      </div>
+
+      <div class="modal-body">
+            <img class="row" src="images/movies.jpg" alt="Movie-Trailers">
+            Completed September 2016, as part of Udacity's Full-Stack Web Developer Nanodegree Program, I created a website via Python/Javascript/CSS/HTML that pull in movie info from The Movie DB API.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">
+        <a href="https://github.com/sonyahua/movies">Launch</a>
+        </button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="instagramModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="float:right"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Instagram Photography</h4>
+      </div>
+
+      <div class="modal-body">
+            <img class="row" src="images/instagram.jpg" alt="Instagram">
+            On my free time, I occasionally take photos.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">
+        <a href="https://www.instagram.com/dallying402/">Launch</a>
+        </button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End of Modals -->
+
+</body>
+
+</html>
